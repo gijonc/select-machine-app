@@ -1,0 +1,29 @@
+.formGroup {
+	margin-top: 30px;
+}
+
+.formGroup input {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 12px 10px;
+	border-radius: 4px;
+	border: 1px solid grey;
+	font-size: 16px;
+}
+
+.formGroup p {
+	color: var(--color-danger);
+	font-size: 14px;
+}
+
+.formGroup button {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 0;
+	width: 80%;
+	background-color: var(--color-prim);
+	border-radius: 4px;
+	border: 1px solid grey;
+	font-weight: bold;
+	font-size: 20px;
+}

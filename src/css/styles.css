@@ -1,0 +1,50 @@
+:root {
+	--color-prim: #00aeef;
+	--color-danger: rgb(205, 0, 0);
+}
+
+body {
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+		"Arial", sans-serif;
+	margin: 0 auto;
+	padding: 5% 0;
+	font-size: 20px;
+}
+
+button {
+	border: none;
+	box-sizing: border-box;
+	outline: none;
+	cursor: pointer;
+	color: #fff;
+}
+
+.root {
+	border: 1px solid #ccc;
+	margin: 0 auto;
+	box-sizing: border-box;
+	width: 360px;
+	height: 640px;
+	background: #eee;
+	position: relative;
+}
+
+.header {
+	line-height: 50px;
+	text-align: center;
+	background: var(--color-prim);
+	color: #fff;
+}
+
+.content {
+	padding: 20px;
+	padding-bottom: 0;
+	height: 510px;
+	margin: 0;
+	overflow-y: overlay;
+	overflow-x: hidden;
+}
+
+.content h1 {
+	color: var(--color-prim);
+}
