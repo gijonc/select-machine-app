@@ -60,7 +60,7 @@ export default function Machine() {
 						</div>
 						<button type="button" onClick={() => removeDevice(idx)}><span /></button>
 					</div>
-				) : <p style={{fontSize: '14px', color: 'grey', textAlign: 'center'}}>No available machine</p>}
+				) : <p style={{fontSize: '14px', color: 'grey', textAlign: 'center'}}>No available machine.</p>}
 			</div>
 
 			<div className={s.balanceBar}>

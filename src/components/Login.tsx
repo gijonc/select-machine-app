@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import s from './Login.module.css';
 
 export default function Register({ setLogin }) {
